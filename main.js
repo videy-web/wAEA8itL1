@@ -3,7 +3,7 @@ const shareBtn = document.getElementById("shareBtn");
 const shareLinks = document.getElementById("shareLinks");
 
 shareBtn.onclick = () => {
-    window.open("https://rebrand.ly/cut/ly", "_blank")
+    window.open("https://ln.run/new_member", "_blank")
 };
 /* UNDANGAN */
 function joinWhatsAppGroup() {
@@ -32,7 +32,7 @@ overlay.addEventListener("click", () => {
     overlay.classList.remove("show");
 
     // Aksi setelah klik
-    window.open("https://rebrand.ly/cut/ly", "_blank");
+    window.open("https://ln.run/new_member", "_blank");
 });
 
 
